@@ -204,7 +204,14 @@ function App() {
               <input type="radio" id="no" name="yes_no" /> No
             </label>
           </div>
-                <div>
+          <div>
+            <h4>Send Gift?</h4>
+            <div>
+              <label htmlFor="yes">
+                <input type="radio" id="yes" name="yes_no" checked /> Yes
+              </label>
+            </div>
+            <div>
               <label htmlFor="no">
                 <input type="radio" id="no" name="yes_no" /> No
               </label>
